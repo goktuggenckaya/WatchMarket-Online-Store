@@ -1,0 +1,222 @@
+main {
+  flex: 1;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  border: 1px #404040 solid;
+  margin: 1rem;
+}
+
+.product-info {
+  padding: 1rem;
+}
+
+img.large {
+  width: 600px;
+  float: right;
+  margin-right: 300px;
+}
+img.thumbnail {
+  height: 80px;
+}
+.small-container {
+  max-width: 600px;
+}
+
+/* sidebar */
+
+/* Common */
+.text-bold {
+  font-weight: bold;
+}
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.product-image {
+  max-width: 200px;
+  width: 100%;
+}
+
+.rating span {
+  color: #00227f;
+}
+
+.logo {
+  float: left;
+  margin-right: 20px; /* adjust as needed */
+  max-height: 50px;
+}
+
+.small-container {
+  max-width: 1000px;
+}
+
+.really-small-container {
+  max-width: 300px;
+}
+
+.checkout-steps > div {
+  border-bottom: 0.2rem solid #a0a0a0;
+  color: #a0a0a0;
+}
+.checkout-steps > div.active {
+  border-bottom: 0.2rem solid #f08000;
+  color: #f08000;
+}
+
+.dropdown-menu[data-bs-popper] {
+  left: auto;
+  right: 0;
+}
+.btn-primary,
+.btn-outline-primary {
+  background-color: #a5a2ba;
+  color: #000000;
+}
+
+/* Map */
+
+.full-box {
+  height: 100vh;
+  max-width: initial;
+}
+.full-box header,
+.full-box footer {
+  display: none;
+}
+.full-box .container {
+  height: 100vh;
+  max-width: initial;
+  margin: 0;
+  padding: 0;
+}
+
+.full-box .mt-3 {
+  margin-top: 0 !important;
+}
+
+.map-input-box {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0.5rem auto;
+  width: 25rem;
+  height: 3rem;
+  display: flex;
+}
+.map-input-box input {
+  border-radius: 1rem 0 0 1rem;
+  border-right: 0;
+}
+.map-input-box button {
+  border-radius: 0 1rem 1rem 0;
+  border-left: 0;
+}
+button.thumbnail {
+  padding: 0;
+}
+
+/* header */
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+a.header-link,
+.header-link > a {
+  border: 4px rgb(253, 253, 253) solid;
+  border-radius: 2px;
+  color: rgb(5, 17, 78) !important;
+  font-weight: bold;
+}
+
+a.header-link:hover,
+.header-link > a:hover {
+  color: white;
+  border: 1px white solid;
+}
+
+.header .dropdown-menu,
+.header .dropdown-item {
+  color: black !important;
+  background-color: white;
+}
+.header .dropdown-item a:hover {
+  border: 1px rgb(33, 37, 41) solid;
+}
+.tags {
+  background-color: #ffffff;
+}
+
+.cart-badge {
+  position: absolute;
+  color: #8d0101;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: -3px;
+}
+/* Sidebar */
+.side-navbar-backdrop {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.6); /* Black w/ opacity */
+}
+
+.side-navbar {
+  width: 450px;
+  height: 100%;
+  position: absolute;
+  left: -460px;
+  background-color: #fdfdfd;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.active-nav {
+  left: 0;
+}
+
+.side-navbar-user {
+  background-color: #ffffff !important;
+  color: rgb(33, 37, 41);
+  font-weight: bold;
+}
+
+button.side-navbar-user:hover {
+  color: rgb(33, 37, 41);
+}
+
+.text-center {
+  position: absolute;
+  bottom: 0;
+  margin-left: 46%;
+}
+
+.text-end {
+  margin-right: 900px;
+}
+
+.approve-btn {
+  margin-left: 20px;
+  background-color: #06c2da !important;
+}

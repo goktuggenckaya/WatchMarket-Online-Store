@@ -1,0 +1,31 @@
+{
+  "name": "ts-mern-amazona",
+  "version": "1.0.0",
+  "description": "## Lessons",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install && npm run build  && cd ../frontend && npm install && npm run build",
+    "start": "TG_ALLOW_MIXED=ALLOW  node backend/build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basir/ts-mern-amazona.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basir/ts-mern-amazona/issues"
+  },
+  "homepage": "https://github.com/basir/ts-mern-amazona#readme",
+  "dependencies": {
+    "@jridgewell/sourcemap-codec": "^1.4.15",
+    "@react-google-maps/api": "^2.18.1",
+    "cloudinary": "^1.36.4",
+    "multer": "^1.4.5-lts.1",
+    "pdfmake": "^0.2.7",
+    "react-google-charts": "^4.0.0",
+    "react-responsive-carousel": "^3.2.23",
+    "streamifier": "^0.1.1"
+  }
+}
